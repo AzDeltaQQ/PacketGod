@@ -1,0 +1,60 @@
+# ── Build output ────────────────────────────────────────────────
+build/
+out/
+bin/
+Release/
+Debug/
+
+# ── CMake generated files ────────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# ── MSVC / Visual Studio ─────────────────────────────────────────
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+.vs/
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# ── Compiled output ───────────────────────────────────────────────
+*.dll
+*.lib
+*.exe
+*.obj
+*.o
+
+# ── Logs / debug dumps ────────────────────────────────────────────
+*.log
+debuglog.txt
+*.dmp
+
+# ── Environment / secrets ────────────────────────────────────────
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+config.local.*
+
+# ── OS noise ─────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ── Editor noise ─────────────────────────────────────────────────
+.vscode/
+*.swp
+*.bak
