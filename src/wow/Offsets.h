@@ -3,8 +3,6 @@
 
 // ============================================================
 //  PacketGod — WoW 3.3.5a Build 12340 — Known Addresses
-//  All offsets relative to the wow.exe module base (0x00400000)
-//  unless marked as absolute VA (verified against IDA).
 // ============================================================
 
 namespace Offsets
